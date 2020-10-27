@@ -1,0 +1,11 @@
+#OneBlueBlock{
+    width: 600px;
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+img{
+float: right;
+margin-left: 15px;
+margin-bottom: 15px;
+}

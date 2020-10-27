@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+red {
+    color: red;
+}
+#top {
+    background: #EAEAEA;
+    height: 90px;
+}
+h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+#content {
+    float: left;
+    width: 100%;
+}
+
+#centercolumn {
+    margin-left: 25%;
+    margin-right: 200px;
+}
+
+#leftcolumn {
+    float: left;
+    width: 25%;
+    margin-left: -100%;
+    background: #C8FC98;
+}
+
+#rightcolumn {
+    float: right;
+    width: 200px;
+    margin-left: -100%;
+    background: #FFFF80;
+}
+
+.into {
+    margin: 0 10px 10px;
+}
+
+ footer{
+    background-color: black;
+    clear: right;
+    text-align: center;
+}
+a{
+    color: gold;
+}

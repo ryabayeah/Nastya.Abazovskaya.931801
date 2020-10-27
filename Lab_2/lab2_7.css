@@ -1,0 +1,49 @@
+.blocks{
+    width: 150px;
+    height: 100px;
+    color:white;
+}
+#blockone{
+background-color: #8a2be2;
+position: static;
+}
+#blocktwo{
+   background-color: #8b0000;
+position: relative;
+}
+#blockthree{
+    background-color:#cd853f;
+    position: relative;
+    left:30px;
+    bottom:30px;
+}
+#blockparent{
+    position: relative;
+    color: white;
+    width: 600px;
+    height: 400px;
+    background-color: #cd5c5c;
+    z-index: 100;
+}
+#blockchild{
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    width: 300px;
+    height: 200px;
+    background-color: #4b0082;
+    color: white;
+
+}
+
+#blockfour{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    width: 100px;
+    height: 120px;
+    background-color: green;
+    color: white;
+    
+
+}

@@ -1,0 +1,14 @@
+#content1 {
+    background-color: green;
+    margin: 20px;
+}
+#content2 {
+    background-color: blue;
+    padding: 50px;
+    border: blue;
+}
+.content {
+    width: 500px;
+    text-align: left;
+    color: white;
+}
