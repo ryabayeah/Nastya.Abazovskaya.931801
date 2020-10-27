@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+b {
+    font-size: 110%;
+}
+
+em {
+    color: red;
+}
+
+
+#top {
+    background: #EAEAEA;
+    height: 90px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+#content {
+    float: left;
+    width: 100%;
+}
+
+#rightcolumn {
+    margin-left: 200px;
+}
+
+#leftcolumn {
+    float: left;
+    width: 200px;
+    margin-left: -100%;
+    background: #C8FC98;
+}
+
+.into {
+    margin: 0 10px 10px;
+}
+
+footer{
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+a{
+    color: gold;
+}

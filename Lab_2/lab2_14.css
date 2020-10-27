@@ -1,0 +1,57 @@
+#OneBlueBlock {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+#blockone {
+    float: left;
+    background-color: bisque;
+    height: 80px;
+    width: 500px;
+}
+
+#blocktwo {
+    background-color: darkgray;
+    overflow: auto;
+}
+
+img {
+    float: right;
+    width: 50%;
+    height: 50%;
+
+}
+
+#texttwo {
+    clear: both;
+}
+
+@media(min-width: 900px) {
+    #blocktwo {
+        background-color: darkgray;
+        margin-left: 305px;
+    }
+}
+
+@media(max-width: 899px) {
+    #blockone {
+        background-color: none;
+        height: 0;
+        width: 100%;
+    }
+
+    ul {
+        background-color: bisque;
+    }
+
+    li {
+        display: inline;
+    }
+
+    #blocktwo {
+        background-color: darkgray;
+        margin-top: 50px;
+        clear: left;
+
+    }
+}

@@ -1,0 +1,12 @@
+#blockone{
+    background-color: #7fffd4;
+    margin: 15px;
+    width: 180px;
+    height: 100px;
+    float: left;
+    
+}
+#blocktwo{
+    background-color:#ffe4c4 ;
+    clear: both;
+}
