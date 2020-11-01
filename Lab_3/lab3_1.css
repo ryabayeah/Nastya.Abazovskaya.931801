@@ -1,0 +1,64 @@
+html,
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    line-height: 2em;
+    font-size: 25px
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+red {
+    color: red;
+    font-size: 0.6cm;
+}
+
+#text {
+    text-align: justify;
+    margin: 2em;
+}
+
+#text::selection {
+    background-color: green;
+}
+
+aside {
+    background-color: red;
+    color: white;
+    margin: 0;
+    flex-shrink: 0;
+    padding: 10px 25px 0 45px;
+    min-height: calc(100vh - 73px);
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    width: 120px;
+    padding: 3px;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+
+li:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    line-height: 25px;
+}
