@@ -1,11 +1,5 @@
-#OneBlueBlock{
-            
-    border: black;
-    position: relative;
-}
 #text{
-   position:absolute;
-   width: 100%;
+   overflow:auto;
    background-color: #00ffff;
    text-align: left;
    border:2px solid green;

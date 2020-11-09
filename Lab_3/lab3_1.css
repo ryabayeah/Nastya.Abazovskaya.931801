@@ -30,6 +30,7 @@ red {
 
 #text::selection {
     background-color: green;
+    color:white;
 }
 
 aside {
