@@ -13,7 +13,7 @@ main{
 button
 {
     height: 30px;
-    margin: 15px 0 0 0;
+    margin: 5px;
     text-align: center;
     padding: 0 10px;
     color: white;
@@ -33,7 +33,7 @@ h2{
 }
 .block_main{
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    width: 850px;
+    width: 800px;
     padding: 15px;
     background-color: #b6f5f5;
     border-bottom: 2px solid black;
@@ -45,7 +45,7 @@ h2{
 .new_block{
     background-color:  #e1ff73;
     width: 500px;
-    top: 320px;
+    top: 340px;
     position: absolute;
     left: 50%;
     z-index: 2;
