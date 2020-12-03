@@ -42,6 +42,10 @@ h2{
     background-color: #ff5555;
 }
 
+.block_i
+{
+    display: block;
+}
 .new_block{
     background-color:  #e1ff73;
     width: 500px;
