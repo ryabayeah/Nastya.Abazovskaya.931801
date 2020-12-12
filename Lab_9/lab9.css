@@ -1,7 +1,11 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #calc{
 border: 3px solid #76b3d8;
 height: 280px;
 width: 300px;
+background: linear-gradient(to top, #E0FFFF, #008080);
 }
 
 #display_text
@@ -9,22 +13,23 @@ width: 300px;
     width: 264px;
     height: 30px;
     border: 1px solid black;
+    color: lightgray;
     font-size: 25px;
     margin-right: 2px;
     padding-right:5px;
-
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #under_display_text
 {
     position:absolute;
-    top: 22px;
+    top: 24px;
     left:24px;
     width: 267px;
     height: 30px;
-    color: lightgray;
-    border: none;
+    color: black;
     font-size: 25px;
-
+    text-align: right;
+    /* background-color: violet; */
 }
 #zero{
     width:105px !important;
@@ -34,7 +39,6 @@ width: 300px;
     height: 105px !important;
 }
 
-
 center{
     margin: 10px;
 }
@@ -43,10 +47,17 @@ button{
     width: 50px;
     height: 50px;
     font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: linear-gradient(to top, #DCDCDC, #FFFFFF);
+    border: none;
+    
 }
+
 table{
     margin-top:5px ;
 }
 td{
-    width: 100px;
+    width: 60px;
 }
