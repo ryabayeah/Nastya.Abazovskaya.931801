@@ -17,30 +17,31 @@ document.querySelectorAll('button').forEach(item => {
             curr_elem = eval(text_under);
             text_under = eval(text_under);
 
-        } else {
-            if (text_under.length<= 18)
+        } 
+        else 
+        {
+            if (text_under.length < 18 )
             {
                 
-            if( button_value == '*' ||
-                button_value == '/' ||
-                button_value == '.' ||
-                button_value == '-' ||
-                button_value == '+'  ) 
-           {
-            curr_elem = '';
-            button_value = CheckValue(button_value);
-           }
+                if( button_value == '*' ||
+                    button_value == '/' ||
+                    button_value == '.' ||
+                    button_value == '-' ||
+                    button_value == '+'  ) 
+                    {
+                        curr_elem = '';
+                        button_value = CheckValue(button_value);
+                    }
 
-            var last_symb = text_under.slice(-1);
-            if (last_symb == '*' ||
-                last_symb == '/' ||
-                last_symb == '-' ||
-                last_symb == '+' ) curr_elem = ''
-                
-        }
-        text_under += button_value;
-        curr_elem += button_value;
-    }
+                var last_symb = text_under.slice(-1);
+                if (last_symb == '*' ||
+                    last_symb == '/' ||
+                    last_symb == '-' ||
+                    last_symb == '+' ) {curr_elem = '';}
+                text_under += button_value;
+                curr_elem += button_value;
+            }
+        }   
     
     console.log(text_under, curr_elem);
 
@@ -61,9 +62,4 @@ CheckValue = (button_value) => {
                     return ''
                  else 
                     return button_value
-
-
-                
-
-
             }
