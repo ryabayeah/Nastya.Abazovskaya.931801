@@ -4,7 +4,7 @@ showOne = (id_block_to_appear,id_block_to_hide,id_image_to_hide,id_image_to_appe
    document.getElementById(id_block_to_hide).style.width = '0%';
 
    document.getElementById(id_image_to_appear).style.display = 'block';
-   document.getElementById(id_image_to_appear).style.width = '70%';
+   document.getElementById(id_image_to_appear).style.width = '75%';
    document.getElementById(id_block_to_appear).style.width = '100%';
    
 }
